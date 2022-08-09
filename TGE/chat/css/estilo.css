@@ -28,7 +28,6 @@
 	border-bottom: black 1px solid;
 	position: fixed;
 	width: 100vw;
-	margin-bottom: 1vh;
 }
 .botaoEnviar{
 	
@@ -36,7 +35,6 @@
 	margin-left: 4px;
 	margin-top: 7px;
 	margin-bottom: 5px;
-	
 }
 .botaoEnviar:hover{
 	transition: 0.5s;
@@ -59,9 +57,7 @@
 	margin-left: 2vw;
 	color: white;
 	font-size: 1rem;
-
 }#msg{
 	
-	color: white;
 	background-color: #2a2a2b;
 }

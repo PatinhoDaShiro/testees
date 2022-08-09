@@ -4,50 +4,35 @@
     list-style-type: none;
    
 }
-/*nav*/
-#nav{    
-  
-    background-color: #26292E; 
-    padding:0.6vh 0 0.9vh 0;
-    border-bottom: 1px solid black;
+.collection .collection-item.avatar p {
+    margin-top: 10px;
+    min-height: 0;
 }
-
-#perfil_link{
-    float: right;
-    margin: 1vh 3vw 0 0;
-    color: white;
-    display: flex;
-    font-size: 1.5rem;
-    
+.collection .collection-item.avatar{
+    min-height: 65px;
 }
-#nick{
-margin: 0.5vh 0 0 0.8vh;
-
-color: white;
+.row .col {
+    padding: 0;
 }
-
-/*body */
-body{
-background-color: #36393E;
+.collection{
+    overflow:hidden;
+    margin: 0;
 }
-
 /*bem vindo*/
 #registrar a{
     color:black;
 }
 #welcome{
-  padding-top: 1vh;
-  padding-bottom: 1vh;
- padding-left: 2vw;
- padding-right: 2vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
     background-color: #26292E;
     max-width: max-content;
-
     margin-top:4vh;
     color: white;
     border-radius: 3rem;
-    
-    
+
 }
 #regist{
     color: white;
@@ -56,8 +41,6 @@ background-color: #36393E;
     margin-top:2.5vh;
 }
 #registrar{
- 
-   
     border: black solid 1px;
     border-radius: 3rem;
    
@@ -71,27 +54,23 @@ background-color: #36393E;
 #TGE{
     text-align: center;
     color: white;
-  
     margin-top: 2vh;
     width: 90vw;
     margin-left: 5vw;
 }
+
 /* carousel*/
 #jogos{
     margin-top: 3.5vw;
-    width: 90vw;
-   
-margin-left: 5vw;
+    width: 90vw;  
+    margin-left: 5vw;
 }
 #carousel{
    width: 100%;
-  
-
 }
 .imagem{
 width: 100%;
 height: 100%;
-
 }
 .img{
     margin-right: 0.1vw;
@@ -100,7 +79,6 @@ height: 100%;
 }
 .img:hover{
     transform: scale(1.2, 1.2);
-
 }
 /*template perfil*/
 #aba_perfil{
@@ -110,14 +88,13 @@ height: 100%;
     text-align: left;
     padding: 4vh 3vw 68.5vh 2vw;
     width: 14vw;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 .perfilitem{
     margin-left: 3px;
     font-size: 2.5vh;
     padding: 0 4vw 0 1vh;
-
 }
 #logoimg{
     margin-left: 1vw;
@@ -167,20 +144,12 @@ ul{
     color: red;
 }
 .perfOP a{
-
     color: white;
 }
-
-
-
-
 body{
     background-color: #151320;
 }
- 
-
   #rainbow{
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -188,19 +157,17 @@ body{
     height: 8vh;
     color: white;
     font-family: 'Raleway';
-
-  
     margin-top: 2vh;
-margin-left: auto;
-margin-right: auto;
-  }
+    margin-left: auto;
+    margin-right: auto;
+}
   #rainbow{
     --borderWidth: 3px;
     background: #1D1F20;
     position: relative;
     border-radius: var(--borderWidth);
   }
-  #rainbow:after {
+#rainbow:after{
     content: '';
     position: absolute;
     top: calc(-1 * var(--borderWidth));
@@ -213,8 +180,6 @@ margin-right: auto;
     animation: animatedgradient 3s ease alternate infinite;
     background-size: 300% 300%;
   }
-  
-  
   @keyframes animatedgradient {
       0% {
           background-position: 0% 50%;
@@ -522,8 +487,4 @@ margin-right: auto;
     }
  
 }
-
-
-
-/*---------------*/
 

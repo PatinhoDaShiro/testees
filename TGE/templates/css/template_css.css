@@ -1,29 +1,7 @@
 *{
     margin: 0;
 }
-/*nav*/
-#nav{    
-    background-color: #26292E; 
-    padding:1rem 0 1rem 1rem;
-  
-}
-#perfil_link{
-    float: right;
-    margin: 1rem 3rem 0 0;
-    color: white;
-    display: flex;
-    font-size: 1.5rem;
-}
-#nick{
-margin: 0.5vh 0 0 0.8vh;
-}
 
-/*body */
-body{
-background-color: #36393E;
-}
-
-/*bem vindo*/
 
 #welcome{
     text-align: center;
