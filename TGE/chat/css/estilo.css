@@ -3,15 +3,18 @@
 	padding: 0;
 
 }
+html{
+	overflow-y: hidden;
+}
 .chat{
 	width: 100vw;
-	height: 92.5vh;
+	
 	background-color: #2a2a2b;
 }
 .formulariomsg{	
 	display: flex;
-	margin: 0 2vw 0 2vw;
-
+	padding: 1vh 2vw 0 2vw;
+	background-color: #2D2D2D;
 	
 }
 .mensagem{	
@@ -23,11 +26,12 @@
 	
 }
 #texto{
-	margin-top: 0.7vh;
-	border-top: black 1px solid;
-	border-bottom: black 1px solid;
-	position: fixed;
+	
+	
+	margin-top:12px;
+
 	width: 100vw;
+	background-color: #2D2D2D;
 }
 .botaoEnviar{
 	
@@ -52,12 +56,54 @@
 }
 .fundo{
 	background-color: #2a2a2b;
+	height: 94vh;
+	overflow-y: scroll;
+	overflow-x:hidden;
 }
 .nome{
 	margin-left: 2vw;
 	color: white;
 	font-size: 1rem;
 }#msg{
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #585858;
+}
+
+
+@media screen and (max-width: 700px) and (min-width: 390px){
+	.chat{
+		height: 90vh;
+	}
+	.formulariomsg{	
 	
-	background-color: #2a2a2b;
+		padding: 0 2vw 0 2vw;	
+	}
+	.fundo{
+		height: 94vh;
+	}
+}
+@media screen and (max-width: 550px) and (min-width: 530px){
+	.chat{
+		height: 90vh;
+	}
+	.formulariomsg{	
+	
+		padding: 0 2vw 0 2vw;	
+	}
+	.fundo{
+		height: 91.7vh;
+	}
+}
+@media screen and (max-width: 380px) and (min-width: 200px){
+	.fundo{
+		height: 89.5vh;
+	}
+	.chat{
+		height: 90vh;
+	}
+	.formulariomsg{	
+
+		padding: 0 2vw 0 2vw;	
+	}
 }

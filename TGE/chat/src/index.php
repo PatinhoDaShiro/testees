@@ -7,12 +7,13 @@ error_reporting(E_ALL ^ E_NOTICE);
 
 
 ?>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
-<!-- Head -->
 <head> 
 	<meta charset="utf-8"> 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Chat - PHP</title>
 	<link rel="icon" href="../img/icon.png">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -37,15 +38,15 @@ error_reporting(E_ALL ^ E_NOTICE);
 						<!-- Formulário de envios das mensagens -->
 						<div id="texto">
 
-						<div class="formulariomsg centered" action="index.php" method="POST">
-								<textarea name="mensagem" id='msg' class="mensagem" placeholder="Digite sua mensagem aqui."></textarea>
-								<button type="button" class="botaoEnviar  btn waves-effect waves-light" id="btnEnviar"><i class="material-icons right">send</i>
-  </button>
-						</div>
+						
 					</div>
 
 						</div>
-					
+						<div class="formulariomsg centered" action="index.php" method="POST">
+								<textarea name="mensagem" id='msg' class="mensagem" placeholder="Digite sua mensagem aqui."></textarea>
+								<button type="button" class="botaoEnviar  btn waves-effect waves-light" id="btnEnviar"><i class="material-icons right">send</i>
+ 								</button>
+						</div>
 				<!-- Final do col-md-7 -->
 
 	
